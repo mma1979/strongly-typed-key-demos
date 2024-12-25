@@ -1,0 +1,69 @@
+@Host = https://localhost:44322/api/liberary
+
+GET {{Host}}/authors
+Accept: application/json
+
+###
+
+GET {{Host}}/books
+Accept: application/json
+
+###
+
+POST {{Host}}/authors HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstName": "Mohammed",
+    "lastName": "Abdelhay"
+}
+
+###
+
+POST {{Host}}/authors HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstName": "Yahya",
+    "lastName": "Mohammed"
+}
+
+###
+
+POST {{Host}}/books HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "C# Advanced"
+}
+
+###
+
+POST {{Host}}/books HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "C# is WAYN",
+  "authorId": 1
+}
+
+###
+
+
+OST {{Host}}/books HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "C# in Real world Apps",
+  "authorId": 2
+}
+
+###
+
+
+

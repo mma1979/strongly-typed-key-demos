@@ -1,0 +1,9 @@
+@StronglyTypedKeyDemo_HostAddress = https://localhost:44336
+
+GET {{StronglyTypedKeyDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{StronglyTypedKeyDemo_HostAddress}}/api/Database
+Accept: application/json

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedKeyDemo", "StronglyTypedKeyDemo\StronglyTypedKeyDemo.csproj", "{FEDCEF0C-D15B-49D2-92EB-B8B3F47DF28B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedKeyDemo2", "StronglyTypedKeyDemo2\StronglyTypedKeyDemo2.csproj", "{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDCEF0C-D15B-49D2-92EB-B8B3F47DF28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDCEF0C-D15B-49D2-92EB-B8B3F47DF28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDCEF0C-D15B-49D2-92EB-B8B3F47DF28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDCEF0C-D15B-49D2-92EB-B8B3F47DF28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

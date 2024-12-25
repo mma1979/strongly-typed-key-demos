@@ -1,0 +1,25 @@
+meta {
+  name: post -api-Authors
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/api/Authors
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 3,
+    "firstName": "Mohammed",
+    "lastName": "Abdelhay",
+    "books": [
+      {
+        "id": 7,
+        "title": "Advanced C# Tips & Tricks"
+      }
+    ]
+  }
+}

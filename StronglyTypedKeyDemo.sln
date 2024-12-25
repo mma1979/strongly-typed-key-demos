@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedKeyDemo", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedKeyDemo2", "StronglyTypedKeyDemo2\StronglyTypedKeyDemo2.csproj", "{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedKeyDemo3", "StronglyTypedKeyDemo3\StronglyTypedKeyDemo3.csproj", "{6E70BA24-FA4F-4859-B850-B6DAAC976A9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055B031B-5ED0-43ED-B7B1-4A35D8B53AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E70BA24-FA4F-4859-B850-B6DAAC976A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E70BA24-FA4F-4859-B850-B6DAAC976A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E70BA24-FA4F-4859-B850-B6DAAC976A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E70BA24-FA4F-4859-B850-B6DAAC976A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

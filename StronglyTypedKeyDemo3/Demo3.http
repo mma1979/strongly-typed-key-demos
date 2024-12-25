@@ -1,4 +1,4 @@
-@Host = https://localhost:44322/api/liberary
+@Host = https://localhost:44345/api/liberary
 
 GET {{Host}}/authors
 Accept: application/json
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 {
     "firstName": "Mohammed",
-    "lastName": "Abdelhay"
+    "lastName": "Abdelhay 3"
 }
 
 ###
@@ -27,7 +27,7 @@ Content-Type: application/json
 
 {
     "firstName": "Yahya",
-    "lastName": "Mohammed"
+    "lastName": "Mohammed 3"
 }
 
 ###
@@ -37,7 +37,8 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "title": "C# Advanced"
+  "title": "C# Advanced 3",
+  "authorId": 3
 }
 
 ###
@@ -47,21 +48,19 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "title": "C# is WAYN",
-  "authorId": 1
+  "title": "C# is WAYN 3",
+  "authorId": 4
 }
 
 ###
-
 
 POST {{Host}}/books HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 
 {
-  "title": "C# in Real world Apps",
-  "authorId": 2
+  "title": "C# in Real world Apps 3",
+  "authorId": 3
 }
 
 ###
-

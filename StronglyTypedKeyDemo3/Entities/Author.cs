@@ -43,4 +43,6 @@ public class Author : IAuditEntity
 public  record  AuthorId(int Value)
 {
     public static AuthorId New(int value) => new AuthorId(value);
+    public static implicit operator int(AuthorId id) => id.Value;
+    public static implicit operator AuthorId(int value) => New(value);
 }

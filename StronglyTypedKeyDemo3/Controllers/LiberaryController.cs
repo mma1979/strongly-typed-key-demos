@@ -8,6 +8,8 @@ using StronglyTypedKeyDemo3.Data;
 using StronglyTypedKeyDemo3.Entities;
 using StronglyTypedKeyDemo3.Models;
 
+using System.Linq;
+
 namespace StronglyTypedKeyDemo3.Controllers;
 
 [Route("api/[controller]")]
@@ -28,6 +30,14 @@ public class LiberaryController : ControllerBase
     {
         var result = _context.Authors.Include(a => a.Books).ToList();
         return _mapper.Map<List<AuthorReadModel>>(result);
+    }
+
+    [HttpGet("authors/{id}")]
+    public AuthorReadModel Get([FromRoute] int id)
+    {
+        var result = _context.Authors.Include(a => a.Books)
+            .FirstOrDefault(a => a.Id == (AuthorId)id);
+        return _mapper.Map<AuthorReadModel>(result);
     }
 
     [HttpGet("books")]

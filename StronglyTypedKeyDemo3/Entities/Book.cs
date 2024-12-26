@@ -34,5 +34,7 @@ public class Book: IAuditEntity
 public  record  BookId(Guid Value)
 {
     public static BookId New(Guid value) => new BookId(value);
+    public static implicit operator Guid(BookId id) => id.Value;
+    public static implicit operator BookId(Guid value) => New(value);
 }
 
